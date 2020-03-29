@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        工作人员编辑</title>
+    <link rel="stylesheet" th:href="@{/staticRes/css/all.min.css}"/>
+    <link rel="stylesheet" th:href="@{/staticRes/css/element/index.css}"/>
+    <script type="text/javascript" th:src="@{/staticRes/js/jquery-3.4.1.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/vue.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/element/index.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/fis.js}"></script>
+    <style scoped>
+        .user-header{
+            position: relative;
+            display: inline-block;
+        }
+        .user-header-com{
+            width: 144px;
+            height: 144px;
+            display: inline-block;
+        }
+        .header-upload-btn{
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            /* 通过定位把input放在img标签上面，通过不透明度隐藏 */
+        }
+        .tip{
+            font-size: 14px;
+            color: #666;
+        }
+        /* error是用于错误提示 */
+        .error{
+            font-size: 12px;
+            color: tomato;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="tool-bar" id="toolBar" style="text-align: right;text-align: right;padding-top: 2px;padding-right: 5px;">
+    <el-button type="primary" size="mini" @click="formSubmit()"><i class="fas fa-save"></i>保存</el-button>
+    <el-button type="primary" size="mini" @click="returnBack()"><i class="fas fa-reply"></i>返回</el-button>
+</div>
+<el-form ref="form" id="peopleForm" :model="people" :rules="rules" @submit.prevent="submit($event)" label-width="120px" >
+    <input type="hidden" id="peopleId" name="peopleId" th:value="${param.peopleId}"/>
+    <el-row>
+        <el-col :span="12" >
+            <el-form-item label="工号" prop="workNo">
+                <el-label style="width:50%">{{people.workNo}}</el-label>
+            </el-form-item>
+        </el-col>
+        <el-col :span="12">
+            <el-form-item label="姓名"  prop="peopleName">
+                <el-label style="width:50%">{{people.peopleName}}</el-label>
+            </el-form-item>
+        </el-col>
+    </el-row>
+    <el-row>
+        <el-col :span="12">
+            <el-form-item label="证件号码" prop="idCard">
+                <el-label style="width:50%">{{people.idCard}}</el-label>
+            </el-form-item>
+        </el-col>
+        <el-col :span="12">
+            <el-form-item label="性别" prop="sex">
+                <el-select v-model="people.sex" placeholder="请选择性别"  style="width:50%" disabled="disabled">
+                    <el-option v-for="sex in dices.sexDic"
+                               :key="sex.code"
+                               :label="sex.name"
+                               :value="sex.code"></el-option>
+                </el-select>
+            </el-form-item>
+        </el-col>
+    </el-row>
+    <el-row>
+        <el-col :span="24">
+            <el-form-item label="联系电话" prop="telPhone">
+                <el-label style="width:50%">{{people.telPhone}}</el-label>
+            </el-form-item>
+        </el-col>
+    </el-row>
+    <el-row>
+        <el-col :span="24">
+            <el-form-item label="照片">
+                <template>
+                    <div class="hello">
+                        <div class="user-header">
+                            <img  alt="" :src="people.head" class="user-header-img user-header-com">
+                            <p class="tip">图片限制2M <span class="error">{{errorStr}}</span></p>
+                        </div>
+                    </div>
+                </template>
+            </el-form-item>
+        </el-col>
+    </el-row>
+</el-form>
+</body>
+<script  type="text/javascript" th:src="@{/fis/people/static/js/peopleInfoEdit.js}"></script>
+</html>

@@ -1,0 +1,177 @@
+@charset 'utf-8';
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-layer-ui {
+  color: black;
+  cursor: default;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Microsoft YaHei';
+}
+
+.modal-layer-hide {
+  visibility: hidden;  
+}
+
+.modal-layer-show {
+  visibility: visible;
+}
+
+#modal-layer-mask {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#modal-layer-container {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /*overflow: hidden;*/
+  background: white;
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: 1px 1px 25px rgba(255, 255, 255,.3);
+}
+
+#modal-layer-minimize-taskbar {
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 40px;
+  position: fixed;
+  line-height: 40px;
+}
+
+#modal-layer-minimize-taskbar .modal-layer-minimize-item {
+  opacity: 0;
+  height: 100%;
+  background: white;
+  display: inline-block;
+  box-shadow: 0px 0px 5px 1px #ccc;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.modal-layer-minimize-item .modal-layer-minimize-item-title {
+  color: #444;
+  margin: 0px 1em;
+  font-size: 0.9em;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: normal;
+  text-overflow: ellipsis;
+}
+
+#modal-layer-container[allow-drag=true] .modal-layer-title {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#modal-layer-container .modal-layer-resize-box {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  bottom: 0px;  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+#modal-layer-container .modal-layer-resize-bar {
+  position: absolute;
+  pointer-events: auto;
+}
+
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=left] {left: 0px; cursor: w-resize;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=right] {right: 0px; cursor: e-resize;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=left] {left: -5px;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=right] {right: -5px;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=left], #modal-layer-container .modal-layer-resize-bar[position-resize-bar=right] {
+  top: 10px;
+  width: 5px;
+  bottom: 10px;
+}
+
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=left-top] {top: 0px; left: 0px; cursor: nw-resize;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=right-top] {top: 0px; right: 0px; cursor: ne-resize;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=left-top] {top: -5px; left: -5px;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=right-top] {top: -5px; right: -5px;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=left-top], #modal-layer-container .modal-layer-resize-bar[position-resize-bar=right-top] {
+  top: 0px;
+  width: 10px;
+  height: 10px;  
+}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=left-top], #modal-layer-container .modal-layer-resize-bar[position-resize-bar=right-top] {
+  width: 15px;
+  height: 15px;
+}
+
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=top] {top: 0px; cursor: n-resize;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=bottom] {bottom: 0px; cursor: s-resize;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=top] {top: -5px;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=bottom] {bottom: -5px;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=top], #modal-layer-container .modal-layer-resize-bar[position-resize-bar=bottom] {
+  left: 10px;
+  height: 5px;
+  right: 10px;
+}
+
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=left-bottom] {left: 0px; bottom: 0px; cursor: ne-resize;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=right-bottom] {right: 0px; bottom: 0px; cursor: se-resize;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=left-bottom] {left: -5px; bottom: -5px;}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=right-bottom] {right: -5px; bottom: -5px;}
+#modal-layer-container .modal-layer-resize-bar[position-resize-bar=left-bottom], #modal-layer-container .modal-layer-resize-bar[position-resize-bar=right-bottom] {
+  bottom: 0px;
+  width: 10px;
+  height: 10px;  
+}
+#modal-layer-container[content-full-container=true] .modal-layer-resize-bar[position-resize-bar=left-bottom], #modal-layer-container .modal-layer-resize-bar[position-resize-bar=right-bottom] {
+  width: 15px;
+  height: 15px;  
+}
+
+@keyframes widthFull {
+  from {width: 0px;}
+  to {width: 100%;}
+}
+
+@keyframes heightFull {
+  from {height: 0px;}
+  to {height: 100%;}
+}

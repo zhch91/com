@@ -1,0 +1,27 @@
+server:
+  port: 3333
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:1111/eureka
+
+spring:
+  application:
+    name: dic-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/fis_new?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      #自动更新表结构
+      ddl-auto: update
+    #是否显示数据库执行语句
+    show-sql: true
+
+

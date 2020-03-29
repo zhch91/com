@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>工作人员信息管理</title>
+    <link rel="stylesheet" th:href="@{/staticRes/css/all.min.css}"/>
+    <link rel="stylesheet" th:href="@{/staticRes/css/element/index.css}"/>
+    <script type="text/javascript" th:src="@{/staticRes/js/jquery-3.4.1.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/vue.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/element/index.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/fis.js}"></script>
+    <style type="text/css">
+        tr{
+            height:40px;
+            max-height: 40px;
+        }
+    </style>
+</head>
+<body>
+<div id="toolbar" style="margin-left: 2px;margin-bottom: 2px;text-align: right">
+    <el-button type="primary" size="mini" @click="addPeople()"><i class="fas fa-plus"></i>新增</el-button>
+</div>
+<div id="peopleTable">
+    <el-table ref="multipleTable" v-loading="loading" :data="tableData" @cell-click="showDetail" border stripe style="width: 100%">
+        <el-table-column fixed type="index" width="50"></el-table-column>
+        <el-table-column type="selection" width="40" align="center"></el-table-column>
+        <el-table-column prop="workNo" label="工号" width="180" sortable></el-table-column>
+        <el-table-column prop="peopleName" label="姓名" show-overflow-tooltip></el-table-column>
+        <el-table-column prop="sex" label="性别" show-overflow-tooltip  :formatter="getSex"></el-table-column>
+        <el-table-column prop="idCard" label="身份证号" width="180"></el-table-column>
+        <el-table-column prop="telPhone" label="联系电话" width="180"></el-table-column>
+        <el-table-column align="center">
+            <template slot="header" slot-scope="scope">
+                <el-input
+                        v-model="search"
+                        size="mini"
+                        placeholder="输入关键字搜索"
+                @change="doSearch()"/>
+            </template>
+            <template slot-scope="scope">
+                <el-button
+                        type="primary"
+                        size="mini"
+                        @click="handleEdit(scope.$index, scope.row)">修改</el-button>
+                <el-button
+                        size="mini"
+                        type="danger"
+                        @click="handleDelete(scope.$index, scope.row)">删除</el-button>
+            </template>
+        </el-table-column>
+    </el-table>
+    <el-pagination background
+                   @size-change="handleSizeChange"
+                   @current-change="handleCurrentChange"
+                   :current-page="currentPage"
+                   :page-sizes="[10, 50, 100, 200]"
+                   :page-size="PageSize"
+                   layout="total, sizes, prev, pager, next, jumper"
+                   :total="totalCount">
+    </el-pagination>
+</div>
+<template>
+    <el-alert
+            title="设置了回调的 alert"
+            type="warning"
+            @close="hello">
+    </el-alert>
+</template>
+</body>
+<script type="text/javascript" th:src="@{/fis/people/static/js/peopleEditList.js}"></script>
+</html>

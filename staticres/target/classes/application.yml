@@ -1,0 +1,17 @@
+server:
+  port: 2222
+spring:
+  application:
+    name: staticres
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:1111/eureka
+

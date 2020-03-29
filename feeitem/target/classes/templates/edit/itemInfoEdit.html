@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        收费项目编辑</title>
+    <link rel="stylesheet" th:href="@{/staticRes/css/all.min.css}"/>
+    <link rel="stylesheet" th:href="@{/staticRes/css/element/index.css}"/>
+    <link rel="stylesheet" th:href="@{/staticRes/css/fis.css}"/>
+    <script type="text/javascript" th:src="@{/staticRes/js/jquery-3.4.1.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/vue.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/element/index.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/fis.js}"></script>
+    <style scoped>
+        .user-header{
+            position: relative;
+            display: inline-block;
+        }
+        .user-header-com{
+            width: 144px;
+            height: 144px;
+            display: inline-block;
+        }
+        .header-upload-btn{
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            /* 通过定位把input放在img标签上面，通过不透明度隐藏 */
+        }
+        .tip{
+            font-size: 14px;
+            color: #666;
+        }
+        /* error是用于错误提示 */
+        .error{
+            font-size: 12px;
+            color: tomato;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tool-bar" id="toolBar" style="text-align: right;text-align: right;padding-top: 2px;padding-right: 5px;">
+        <el-button type="primary" size="mini" @click="formSubmit()"><i class="fas fa-save"></i>保存</el-button>
+        <el-button type="primary" size="mini" @click="returnBack()"><i class="fas fa-reply"></i>返回</el-button>
+    </div>
+    <div id="tabs">
+        <el-tabs v-model="activeName" type="card" @tab-click="handleClick">
+            <el-tab-pane label="基本信息" name="first">
+                <el-form ref="form" id="itemForm" :model="item" :rules="rules" @submit.prevent="submit($event)" label-width="120px" >
+                    <input type="hidden" id="itemId" name="itemId" th:value="${param.itemId}"/>
+                    <el-row>
+                        <el-col :span="12">
+                            <el-form-item label="项目名称"  prop="itemName">
+                                <el-input v-model="item.itemName" placeholder="项目名称" style="width:50%"></el-input>
+                            </el-form-item>
+                        </el-col>
+                    </el-row>
+                    <el-row>
+                        <el-col :span="12">
+                            <el-form-item label="项目类型" prop="itemType">
+                                <el-select v-model="item.itemType" placeholder="请选择项目类型"  style="width:50%">
+                                    <el-option v-for="item in dices.itemDic"
+                                               :key="item.code"
+                                               :label="item.name"
+                                               :value="item.code"></el-option>
+                                </el-select>
+                            </el-form-item>
+                        </el-col>
+                        <el-col :span="12">
+                            <el-form-item label="使用范围" prop="itemScope">
+                                <el-select v-model="item.itemScope" placeholder="请选择使用范围"  style="width:50%">
+                                    <el-option v-for="scope in dices.scopeDic"
+                                               :key="scope.code"
+                                               :label="scope.name"
+                                               :value="scope.code"></el-option>
+                                </el-select>
+                            </el-form-item>
+                        </el-col>
+                    </el-row>
+                    <el-row>
+                        <el-col :span="12">
+                            <el-form-item label="项目定价" prop="itemFee">
+                                <el-input v-model.number="item.itemFee" placeholder="请输入项目定价" style="width:50%"></el-input>
+                            </el-form-item>
+                        </el-col>
+                        <el-col :span="12">
+                            <el-form-item label="定价单位" prop="itemFeeUnit">
+                                <el-select v-model="item.itemFeeUnit" placeholder="请选择定价单位"  style="width:50%">
+                                    <el-option v-for="unit in dices.unitDic"
+                                               :key="unit.code"
+                                               :label="unit.name"
+                                               :value="unit.code"></el-option>
+                                </el-select>
+                            </el-form-item>
+                        </el-col>
+                    </el-row>
+                </el-form>
+            </el-tab-pane>
+            <el-tab-pane label="项目图片" name="second">
+                <el-upload
+                        action="https://jsonplaceholder.typicode.com/posts/"
+                        list-type="picture-card"
+                        :limit="imageCount"
+                        :drag="true"
+                        :file-list="fileList"
+                        :data="handleUploadData"
+                        :on-exceed="handleExceed"
+                        :on-preview="handlePictureCardPreview"
+                        :on-remove="handleRemove">
+                    <i class="el-icon-plus"></i>
+                </el-upload>
+                <el-dialog :visible.sync="dialogVisible">
+                    <img width="100%" :src="dialogImageUrl" alt="">
+                </el-dialog>
+            </el-tab-pane>
+        </el-tabs>
+    </div>
+</body>
+<script  type="text/javascript" th:src="@{/fis/feeItem/static/js/ItemInfoEdit.js}"></script>
+</html>

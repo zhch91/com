@@ -1,0 +1,5 @@
+com\portal\services\SecurityService.class
+com\portal\PortalApplication.class
+com\portal\data\UserCheckToken.class
+com\portal\controller\IndexController.class
+com\portal\controller\LoginController.class

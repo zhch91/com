@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>收费项目管理</title>
+    <link rel="stylesheet" th:href="@{/staticRes/css/all.min.css}"/>
+    <link rel="stylesheet" th:href="@{/staticRes/css/element/index.css}"/>
+    <script type="text/javascript" th:src="@{/staticRes/js/jquery-3.4.1.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/vue.min.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/element/index.js}"></script>
+    <script type="text/javascript" th:src="@{/staticRes/js/fis.js}"></script>
+    <style type="text/css">
+        .el-row{
+            height:40px;
+        }
+    </style>
+</head>
+<body>
+<div id="searchDiv" style="margin-bottom: 2px">
+    <el-row class="row-bg" type="flex" align="middle" :gutter="5" >
+        <el-col :span="3" style="text-align: right;">全局搜索:</el-col>
+        <el-col :span="21"><el-input size="mini" v-model="search" placeholder="输入关键字搜索"></el-input>
+        </el-col>
+    </el-row>
+    <el-row class="row-bg" type="flex" align="middle" justify="center" :gutter="5" >
+        <el-col :span="3" style="text-align: right;">项目名称:</el-col>
+        <el-col :span="5"><el-input size="mini" v-model="itemName" placeholder="输入关键字搜索"></el-input>
+        </el-col>
+        <el-col :span="3" style="text-align: right;">项目类型:</el-col>
+        <el-col :span="5"><el-select v-model="itemType" placeholder="请选择项目类型" size="mini">
+            <el-option v-for="typeDic in dices.typeDic"
+                       :key="typeDic.code"
+                       :label="typeDic.name"
+                       :value="typeDic.code"></el-option>
+        </el-select>
+        </el-col>
+        <el-col :span="3" style="text-align: right;">项目单价:</el-col>
+        <el-col :span="2"><el-input size="mini" v-model="itemFeeMin" placeholder="最小值" ></el-input>
+        </el-col>
+        <el-col :span="1" style="text-align: center">-
+        </el-col>
+        <el-col :span="2"><el-input size="mini" v-model="itemFeeMax" placeholder="最大值
+" ></el-input>
+        </el-col>
+    </el-row>
+    <el-row type="flex" align="middle" justify="center">
+        <el-col style="text-align: center">
+            <el-button type="primary" size="mini" @click="doSearch()"><i class="fas fa-search"></i>查询</el-button>
+        </el-col>
+    </el-row>
+</div>
+<div id="toolbar" style="margin-left: 2px;margin-bottom: 2px;text-align: right">
+    <el-button type="primary" size="mini" @click="addPeople()"><i class="fas fa-plus"></i>新增</el-button>
+</div>
+<div id="peopleTable">
+    <el-table ref="multipleTable" v-loading="loading" :data="tableData" @cell-click="showDetail" border stripe style="width: 100%">
+        <el-table-column fixed  type="index" width="50"></el-table-column>
+        <el-table-column type="selection" width="40" align="center"></el-table-column>
+        <el-table-column prop="itemType" label="项目类型" width="180" :formatter="getItemType"></el-table-column>
+        <el-table-column prop="itemName" label="项目名称" width="180" sortable></el-table-column>
+        <el-table-column prop="itemFee" label="项目单价" show-overflow-tooltip></el-table-column>
+        <el-table-column prop="itemFeeUnit" label="定价单位" show-overflow-tooltip></el-table-column>
+        <el-table-column prop="updateTime" label="更新时间" width="180"></el-table-column>
+        <el-table-column align="center" label="操作" width="180">
+            <template slot-scope="scope">
+                <el-button
+                        type="primary"
+                        size="mini"
+                        @click="handleEdit(scope.$index, scope.row)">修改</el-button>
+                <el-button
+                        size="mini"
+                        type="danger"
+                        @click="handleDelete(scope.$index, scope.row)">删除</el-button>
+            </template>
+        </el-table-column>
+    </el-table>
+    <el-pagination background
+                   @size-change="handleSizeChange"
+                   @current-change="handleCurrentChange"
+                   :current-page="currentPage"
+                   :page-sizes="[10, 50, 100, 200]"
+                   :page-size="PageSize"
+                   layout="total, sizes, prev, pager, next, jumper"
+                   :total="totalCount">
+    </el-pagination>
+</div>
+<template>
+    <el-alert
+            title="alert"
+            type="warning"
+            @close="hello">
+    </el-alert>
+</template>
+</body>
+<script type="text/javascript" th:src="@{/fis/feeItem/static/js/itemEditList.js}"></script>
+</html>

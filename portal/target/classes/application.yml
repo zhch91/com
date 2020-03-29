@@ -1,0 +1,28 @@
+server:
+  port: 8081
+  servlet:
+    session:
+      tracking-modes: cookie
+
+spring:
+  application:
+    name: portal
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+  thymeleaf:
+    cache: false
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:1111/eureka
+
+redis:
+  host: ${eureka.instance.hostname}
+  port: 6379
+  database: 0
+  password: zhangcheng

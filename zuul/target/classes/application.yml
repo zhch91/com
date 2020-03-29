@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 5555
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/
+
+zuul:
+  routes:
+    security-url:
+      path: /security/**
+      serviceId: security-service
+    portal-url:
+      path: /portal/**
+      serviceId: portal
+    dic-url:
+      path: /dic/**
+      serviceId: dic-service
+    people-url:
+      path: /fis/people/**
+      serviceId: people-service
+    staticres-url:
+      path: /staticRes/**
+      serviceId: staticres
+    feeItem-url:
+      path: /fis/feeItem/**
+      serviceId: feeitem-service
+  add-host-header: true
+  sensitive-headers:
+ribbon:
+  ReadTimeout: 10000
+  SocketTimeout: 10000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
