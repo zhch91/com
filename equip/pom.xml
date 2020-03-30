@@ -14,20 +14,20 @@
             spring-boot-starter-parent
         </artifactId>
         <version>
-            2.2.4.RELEASE
+            2.2.5.RELEASE
         </version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>
-        com.comm
+        com.fis
     </groupId>
     <artifactId>
-        file
+        equip
     </artifactId>
     <version>
         0.0.1-SNAPSHOT
     </version>
-    <name>file
+    <name>equip
     </name>
     <description>
         Demo project
@@ -77,7 +77,37 @@
                 spring-cloud-starter-netflix-eureka-client
             </artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>
+                org.springframework.cloud
+            </groupId>
+            <artifactId>
+                spring-cloud-starter-openfeign
+            </artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.21</version>
+        </dependency>
+        <dependency>
+            <groupId>
+                com.alibaba
+            </groupId>
+            <artifactId>
+                fastjson
+            </artifactId>
+            <version>
+                1.2.62
+            </version>
+            <scope>
+                compile
+            </scope>
+        </dependency>
         <dependency>
             <groupId>
                 org.springframework.boot
@@ -102,29 +132,6 @@
             <scope>
                 runtime
             </scope>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.21</version>
-        </dependency>
-        <dependency>
-            <groupId>
-                com.alibaba
-            </groupId>
-            <artifactId>
-                fastjson
-            </artifactId>
-            <version>
-                1.2.62
-            </version>
-            <scope>
-                compile
-            </scope>
-        </dependency>
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-httpclient</artifactId>
         </dependency>
         <dependency>
             <groupId>

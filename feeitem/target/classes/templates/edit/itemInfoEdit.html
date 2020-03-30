@@ -40,14 +40,14 @@
         }
     </style>
 </head>
-<body>
+<body >
     <div class="tool-bar" id="toolBar" style="text-align: right;text-align: right;padding-top: 2px;padding-right: 5px;">
         <el-button type="primary" size="mini" @click="formSubmit()"><i class="fas fa-save"></i>保存</el-button>
         <el-button type="primary" size="mini" @click="returnBack()"><i class="fas fa-reply"></i>返回</el-button>
     </div>
-    <div id="tabs">
+    <div id="tabs" >
         <el-tabs v-model="activeName" type="card" @tab-click="handleClick">
-            <el-tab-pane label="基本信息" name="first">
+            <el-tab-pane label="基本信息" name="first" style="min-height: 400px">
                 <el-form ref="form" id="itemForm" :model="item" :rules="rules" @submit.prevent="submit($event)" label-width="120px" >
                     <input type="hidden" id="itemId" name="itemId" th:value="${param.itemId}"/>
                     <el-row>
@@ -98,14 +98,14 @@
                     </el-row>
                 </el-form>
             </el-tab-pane>
-            <el-tab-pane label="项目图片" name="second">
+            <el-tab-pane label="项目图片" name="second"  style="min-height: 400px">
                 <el-upload
-                        action="https://jsonplaceholder.typicode.com/posts/"
+                        action="/file/upload"
                         list-type="picture-card"
                         :limit="imageCount"
                         :drag="true"
                         :file-list="fileList"
-                        :data="handleUploadData"
+                        :data="uploadData"
                         :on-exceed="handleExceed"
                         :on-preview="handlePictureCardPreview"
                         :on-remove="handleRemove">

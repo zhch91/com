@@ -6,394 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163c63d-acff-4a7f-982e-8b2cffd98141" name="默认更改列表" comment="项目初次上传">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/dic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/DicApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/controller/DicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/dao/ICommDicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/data/CommDic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/data/CommDicKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/data/ParamsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/java/com/comm/dic/service/CommDicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/src/test/java/com/comm/dic/DicApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/DicApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/controller/DicController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/dao/ICommDicDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/data/CommDic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/data/CommDicKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/data/ParamsCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/classes/com/comm/dic/service/CommDicService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic/target/test-classes/com/comm/dic/DicApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/com/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/test/java/com/eureka/EurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/target/classes/com/eureka/EurekaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/target/test-classes/com/eureka/EurekaApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/feeitem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/FeeitemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/controller/FeeItemEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/controller/FeeItemQueryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/controller/PageTurnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/dao/IFisFeeItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/data/FisFeeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/data/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/data/ParamsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/service/FisFeeItemEditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/service/FisFeeItemQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/service/IDicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/resources/static/js/ItemInfoEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/resources/static/js/itemEditList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/resources/templates/edit/itemInfoDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/resources/templates/edit/itemInfoEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/main/resources/templates/list/itemListForEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/src/test/java/com/fis/feeitem/FeeitemApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/FeeitemApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/controller/FeeItemEditController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/controller/FeeItemQueryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/controller/PageTurnController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/dao/IFisFeeItemDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/data/FisFeeItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/data/PageInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/data/ParamsCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/service/FisFeeItemEditService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/service/FisFeeItemEditService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/service/FisFeeItemQueryService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/service/FisFeeItemQueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/service/IDicService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/static/js/ItemInfoEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/static/js/itemEditList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/templates/edit/itemInfoDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/templates/edit/itemInfoEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/classes/templates/list/itemListForEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeitem/target/test-classes/com/fis/feeitem/FeeitemApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/file.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/FileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/src/test/java/com/comm/file/FileApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/PeopleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/controller/PageTurnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/controller/PeopleEditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/controller/PeopleQueryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/dao/IFisPeopleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/data/FisPeopleInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/data/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/data/ParamsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/service/FisPeopleInfoEditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/service/FisPeopleInfoQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/java/com/fis/people/service/IDicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/static/images/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/static/js/peopleEditList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/static/js/peopleInfoEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/templates/edit/peopleInfoDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/templates/edit/peopleInfoEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/main/resources/templates/list/peopleListForEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/src/test/java/com/fis/people/PeopleApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/PeopleApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/controller/PageTurnController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/controller/PeopleEditController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/controller/PeopleQueryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/dao/IFisPeopleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/data/FisPeopleInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/data/PageInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/data/ParamsCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/service/FisPeopleInfoEditService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/service/FisPeopleInfoEditService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/service/FisPeopleInfoQueryService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/service/FisPeopleInfoQueryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/com/fis/people/service/IDicService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/static/images/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/static/js/peopleEditList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/static/js/peopleInfoEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/templates/edit/peopleInfoDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/templates/edit/peopleInfoEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/classes/templates/list/peopleListForEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/people/target/test-classes/com/fis/people/PeopleApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/PortalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/config/RedisSessionRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/data/ParamsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/data/UserCheckToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/portal/services/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/static/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/static/images/navigate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/static/images/out.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/static/images/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/static/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/main/resources/templates/portal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/src/test/java/com/portal/PortalApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/PortalApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/config/RedisSessionRegister.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/controller/MenuController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/data/ParamsCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/data/UserCheckToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/com/portal/services/SecurityService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/static/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/static/images/navigate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/static/images/out.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/static/images/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/static/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/classes/templates/portal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/target/test-classes/com/portal/PortalApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/dao/ICommMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/dao/ICommUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/dao/ICommUserMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/data/CommMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/data/CommUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/data/CommUserMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/base/service/CommMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/comm/BaseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/controller/SecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/token/UserCheckToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/test/java/com/security/SecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/SecurityApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/dao/ICommMenuDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/dao/ICommUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/dao/ICommUserMenuDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/data/CommMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/data/CommUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/data/CommUserMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/base/service/CommMenuService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/comm/BaseBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/controller/SecurityController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/token/UserCheckToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/target/test-classes/com/security/SecurityApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/java/com/staticres/StaticresApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/bootstrap-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/bootstrap-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/element/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/element/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/element/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/fis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/modallayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/modallayer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/css/skin/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-table-export.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-table-vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-table-vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/bootstrap/tableExport.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/element/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/fis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/modallayer-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/modallayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/modallayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-light-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-light-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-light-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-light-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-light-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/main/resources/static/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/src/test/java/com/staticres/StaticresApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/com/staticres/StaticresApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/bootstrap-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/bootstrap-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/element/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/element/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/element/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/fis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/modallayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/modallayer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/css/skin/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-table-export.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-table-vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-table-vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/bootstrap/tableExport.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/element/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/fis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/modallayer-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/modallayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/modallayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-light-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-light-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-light-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-light-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-light-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/classes/static/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticres/target/test-classes/com/staticres/StaticresApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/zuul/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/test/java/com/zuul/ZuulApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/target/classes/com/zuul/ZuulApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/target/test-classes/com/zuul/ZuulApplicationTests.class" afterDir="false" />
+    <list default="true" id="e163c63d-acff-4a7f-982e-8b2cffd98141" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/src/main/java/com/fis/equip/EquipApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equip/src/test/java/com/fis/equip/EquipApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/service/IFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/dao/ICommFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/data/CommFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/data/FileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/comm/file/utils/UploadHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/controller/FeeItemQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/controller/FeeItemQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeitem/src/main/resources/static/js/ItemInfoEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/feeitem/src/main/resources/static/js/ItemInfoEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeitem/src/main/resources/templates/edit/itemInfoEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/feeitem/src/main/resources/templates/edit/itemInfoEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/controller/FeeItemQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/feeitem/target/classes/com/fis/feeitem/controller/FeeItemQueryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeitem/target/classes/static/js/ItemInfoEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/feeitem/target/classes/static/js/ItemInfoEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeitem/target/classes/templates/edit/itemInfoEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/feeitem/target/classes/templates/edit/itemInfoEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/equip/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -460,13 +106,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1XkzF64j1peWK3Qgw3jbOm4S7li" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -477,36 +126,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/file/src/main/java/com/comm/file/utils" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.08012821" />
     <property name="project.structure.side.proportion" value="0.30830672" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.security.base" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\templates\edit" />
-      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\static\js" />
-      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\templates\list" />
-      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\java\com\fis\feeitem\data" />
-      <recent name="E:\ideaIU-2019.3.1\code\com\staticres\src\main\resources\static\css\element" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.fis.feeitem.service" />
-      <recent name="com.fis.feeitem.dao" />
-      <recent name="com.fis.feeitem.controller" />
-      <recent name="com.comm.dic.data" />
-      <recent name="com.fis.people.data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\templates" />
       <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\static" />
       <recent name="E:\ideaIU-2019.3.1\code\com\staticres\src\main\resources\static\js\bootstrap" />
       <recent name="E:\ideaIU-2019.3.1\code\com\people\src\main\resources\templates\error" />
       <recent name="E:\ideaIU-2019.3.1\code\com\portal\src\main\resources\static\js" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.security.base" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.comm.file.controller" />
+      <recent name="com.fis.feeitem.service" />
+      <recent name="com.fis.feeitem.dao" />
+      <recent name="com.fis.feeitem.controller" />
+      <recent name="com.comm.dic.data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaIU-2019.3.1\code\com\file\src\main\java\com\comm\file\utils" />
+      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\templates\edit" />
+      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\static\js" />
+      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\resources\templates\list" />
+      <recent name="E:\ideaIU-2019.3.1\code\com\feeitem\src\main\java\com\fis\feeitem\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -536,6 +185,15 @@
     <configuration name="FeeitemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="feeitem" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fis.feeitem.FeeitemApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="file" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.comm.file.FileApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
@@ -605,6 +263,7 @@
       <item itemvalue="Spring Boot.StaticresApplication" />
       <item itemvalue="Spring Boot.DicApplication" />
       <item itemvalue="Spring Boot.FeeitemApplication" />
+      <item itemvalue="Spring Boot.FileApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -664,14 +323,25 @@
       <workItem from="1583664071653" duration="207000" />
       <workItem from="1584016043704" duration="5284000" />
       <workItem from="1584237493759" duration="21449000" />
-      <workItem from="1585445316883" duration="8686000" />
+      <workItem from="1585445316883" duration="9253000" />
+      <workItem from="1585476515211" duration="11245000" />
+      <workItem from="1585573531729" duration="1442000" />
     </task>
+    <task id="LOCAL-00001" summary="项目初次上传">
+      <created>1585476174047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585476174047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="项目初次上传" />
     <option name="LAST_COMMIT_MESSAGE" value="项目初次上传" />
   </component>
@@ -708,10 +378,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="247" key="#com.intellij.ide.util.ExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582118598234" />
-    <state x="544" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1585469730252">
+    <state x="544" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1585487498492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="544" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585469730252" />
+    <state x="544" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585487498492" />
     <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582449522671" />
     <state x="689" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581605986928">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -737,24 +407,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="531" y="141" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583157632962" />
-    <state x="509" y="0" key="#xdebugger.evaluate" timestamp="1585446641470">
+    <state x="509" y="0" key="#xdebugger.evaluate" timestamp="1585493224476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="509" y="0" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585446641470" />
+    <state x="509" y="0" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585493224476" />
     <state x="715" y="136" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1582121258051" />
-    <state x="393" y="45" key="#项目结构" timestamp="1585475514073">
+    <state x="393" y="45" key="#项目结构" timestamp="1585486620293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="45" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1585475514073" />
+    <state x="393" y="45" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1585486620293" />
     <state x="552" y="178" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1581605732994" />
-    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1585475847430">
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1585476169445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585475847430" />
-    <state width="444" height="433" key="DebuggerActiveHint" timestamp="1585446913352">
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585476169445" />
+    <state width="444" height="433" key="DebuggerActiveHint" timestamp="1585493521991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="444" height="433" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1585446913352" />
+    <state width="444" height="433" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1585493521991" />
     <state width="450" height="618" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582364828262" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1582118886035">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -768,69 +438,73 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="273" width="394" height="181" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1585475413041" />
+    <state x="556" y="257" width="277" height="286" key="Github.ShareDialog" timestamp="1585476547962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="556" y="257" width="277" height="286" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1585476547962" />
     <state x="275" y="22" key="GrepConsoleSettings" timestamp="1585447143013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="GrepConsoleSettings/0.0.1366.728@0.0.1366.728" timestamp="1585447143013" />
-    <state width="905" height="102" key="GridCell.Tab.0.bottom" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.0.bottom" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897786" />
-    <state width="905" height="102" key="GridCell.Tab.0.center" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.0.center" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897785" />
-    <state width="905" height="102" key="GridCell.Tab.0.left" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.0.left" timestamp="1585574838460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585574838460" />
     <state width="1293" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897785" />
-    <state width="905" height="102" key="GridCell.Tab.0.right" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.0.right" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897786" />
-    <state width="905" height="102" key="GridCell.Tab.1.bottom" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.1.bottom" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897786" />
-    <state width="905" height="102" key="GridCell.Tab.1.center" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.1.center" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897786" />
-    <state width="905" height="102" key="GridCell.Tab.1.left" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.1.left" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897786" />
-    <state width="905" height="102" key="GridCell.Tab.1.right" timestamp="1585472419730">
+    <state width="905" height="317" key="GridCell.Tab.1.right" timestamp="1585574838461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="102" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585472419730" />
+    <state width="905" height="317" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585574838461" />
     <state width="1293" height="272" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897786" />
-    <state width="905" height="293" key="GridCell.Tab.2.bottom" timestamp="1585470661825">
+    <state width="905" height="317" key="GridCell.Tab.2.bottom" timestamp="1585494784143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585470661825" />
+    <state width="905" height="317" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585494784143" />
     <state width="1293" height="272" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897548" />
-    <state width="905" height="293" key="GridCell.Tab.2.center" timestamp="1585470661825">
+    <state width="905" height="317" key="GridCell.Tab.2.center" timestamp="1585494784143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1585470661825" />
+    <state width="905" height="317" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1585494784143" />
     <state width="1293" height="272" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897548" />
-    <state width="905" height="293" key="GridCell.Tab.2.left" timestamp="1585470661825">
+    <state width="905" height="317" key="GridCell.Tab.2.left" timestamp="1585494784143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1585470661825" />
+    <state width="905" height="317" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1585494784143" />
     <state width="1293" height="272" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897548" />
-    <state width="905" height="293" key="GridCell.Tab.2.right" timestamp="1585470661825">
+    <state width="905" height="317" key="GridCell.Tab.2.right" timestamp="1585494784143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="293" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1585470661825" />
+    <state width="905" height="317" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1585494784143" />
     <state width="1293" height="272" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582459897548" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1581687469473">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -840,9 +514,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="178" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1581869979867" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1581869876772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="328" y="12" key="SettingsEditor" timestamp="1585487235784">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="328" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585487235784" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581869876772" />
     <state x="690" y="273" key="extract.method.dialog" timestamp="1582188357994">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -853,31 +528,19 @@
     </state>
     <state x="410" y="41" width="767" height="647" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584252252889" />
     <state x="576" y="58" width="767" height="924" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582260021022" />
-    <state x="115" y="83" key="new project wizard" timestamp="1585475370493">
+    <state x="504" y="206" key="git4idea.rebase.GitRebaseDialog" timestamp="1585476332060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="83" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585475370493" />
+    <state x="504" y="206" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1585476332060" />
+    <state x="115" y="83" key="new project wizard" timestamp="1585574938596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="83" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585574938596" />
     <state x="334" y="127" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582449137236" />
     <state x="443" y="158" width="672" height="475" key="search.everywhere.popup" timestamp="1582548693712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="443" y="158" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582548693712" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581899766021" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/controller/PageTurnController.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/feeitem/src/main/java/com/fis/feeitem/service/FisFeeItemQueryService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

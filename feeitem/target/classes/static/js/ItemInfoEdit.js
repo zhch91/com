@@ -63,7 +63,10 @@ function dealVue(data){
             return{
                 item:data.items,
                 dices:data.dices,
-                fileList:[],
+                fileList:data.fileList,
+                uploadData:{
+                    applyId:$("#itemId").val()
+                },
                 activeName:"first",
                 dialogImageUrl: '',
                 dialogVisible: false,
@@ -100,7 +103,18 @@ function dealVue(data){
 
             },
             handleRemove(file, fileList) {
-                console.log(file, fileList);
+                let cmd = new Fis.Cmd("/file/delete?fileId="+file.fileId);
+                cmd.successFunc(function(data){
+                    if(data.code=="success"){
+                        itemDs.$message({
+                            type:data.code,
+                            message:data.message,
+                            showClose:true,
+                            duration:2000
+                        });
+                    }
+                });
+                cmd.execute(true);
             },
             handlePictureCardPreview(file) {
                 this.dialogImageUrl = file.url;
@@ -113,9 +127,6 @@ function dealVue(data){
                     showClose:true,
                     duration:2000
                 });
-           },
-           handleUploadData(){
-
            }
         }
     });

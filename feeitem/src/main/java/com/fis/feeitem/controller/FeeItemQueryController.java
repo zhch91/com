@@ -6,6 +6,7 @@ import com.fis.feeitem.data.FisFeeItem;
 import com.fis.feeitem.data.ParamsCollection;
 import com.fis.feeitem.service.FisFeeItemQueryService;
 import com.fis.feeitem.service.IDicService;
+import com.fis.feeitem.service.IFileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.validation.BindingResult;
@@ -23,6 +24,8 @@ public class FeeItemQueryController {
     FisFeeItemQueryService fisFeeItemQueryService;
     @Autowired
     IDicService dicService;
+    @Autowired
+    IFileService fileService;
 
     @PostMapping(value="/list")
     public Page<FisFeeItem> getFeeItemList(@RequestBody ParamsCollection paramsCollection, HttpSession httpSession, BindingResult bindingResult){
@@ -38,6 +41,8 @@ public class FeeItemQueryController {
         FisFeeItem fisFeeItem = fisFeeItemQueryService.queryFeeItemOne(paramsCollection);
         reJson.put("items",JSONObject.toJSON(fisFeeItem));
         reJson.put("dices",generatePageDic());
+        String fileListStr = fileService.getFileList((String) paramsCollection.getParameter("itemId"));
+        reJson.put("fileList",JSONArray.parse(fileListStr));
         return reJson.toJSONString();
     }
 
@@ -47,6 +52,7 @@ public class FeeItemQueryController {
         FisFeeItem fisFeeItem = new FisFeeItem();
         reJson.put("items",JSONObject.toJSON(fisFeeItem));
         reJson.put("dices",generatePageDic());
+        reJson.put("fileList",new JSONArray().toJSONString());
         return reJson.toJSONString();
     }
 

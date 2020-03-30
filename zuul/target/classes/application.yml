@@ -29,6 +29,9 @@ zuul:
     feeItem-url:
       path: /fis/feeItem/**
       serviceId: feeitem-service
+    file-url:
+      path: /file/**
+      serviceId: file-service
   add-host-header: true
   sensitive-headers:
 ribbon:
